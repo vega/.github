@@ -30,7 +30,6 @@ Maintainers who are inactive for more than six months may be removed from the ma
 * @joelostblom
 * @jonmmease
 * @keckelt
-* @lsh
 * @mattijn
 * @yhoonkim
 
@@ -54,6 +53,7 @@ The current admins are:
 * @domoritz
 * @jheer
 * @kanitw
+* @lsh
 
 #### [Altair-Viz](https://github.com/altair-viz) GitHub Organization Admins
 

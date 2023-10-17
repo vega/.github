@@ -2,7 +2,7 @@
 
 ## Scope and Goals
 
-This governance document describes the governance model for [Vega](https://github.com/vega/vega), [Vega-Lite](https://github.com/vega/vega-lite), [Vega-Embed](https://github.com/vega/vega-embed), [Vega-Datsets](https://github.com/vega/vega-datasets), [Vega-Themes](https://github.com/vega/vega-themes), [Vega-Tooltips](https://github.com/vega/vega-tooltip), [Vega-Editor](https://github.com/vega/editor), and [VL-Convert](https://github.com/vega/vl-convert). These projects are collectively referred to as the "Vega projects" in this document. The Vega projects are in the [vega](https://github.com/vega) GitHub organizations.
+This governance document describes the governance model for [Vega](https://github.com/vega/vega), [Vega-Lite](https://github.com/vega/vega-lite), [Vega-Embed](https://github.com/vega/vega-embed), [Vega-Datasets](https://github.com/vega/vega-datasets), [Vega-Themes](https://github.com/vega/vega-themes), [Vega-Tooltips](https://github.com/vega/vega-tooltip), [Vega-Editor](https://github.com/vega/editor), and [VL-Convert](https://github.com/vega/vl-convert). These projects are collectively referred to as the "Vega projects" in this document. The Vega projects are in the [vega](https://github.com/vega) GitHub organizations.
 
 The [Vega-Altair](https://github.com/altair-viz/altair) project's governance model is documented at [altair-viz/altair/governance](https://github.com/altair-viz/altair/blob/main/governance/project-docs/GOVERNANCE.md).
 

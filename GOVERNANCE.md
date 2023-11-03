@@ -20,7 +20,7 @@ Contributors are anyone who makes a contribution to a Vega project via GitHub. T
 
 Maintainers belong to all or some subset of Vega projects. Maintainers are responsible for organizing activities around developing, maintaining, and updating the project. Maintainers have write access and can push directly to branches on GitHub. Maintainers also have access to specific developer channels on Slack.
 
-To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [maintainers.md file](MAINTAINERS.md). We want more people to become Maintainers and lower the barrier the enter. If you are interested in becoming a Maintainer, please reach out to an existing Maintainer.
+To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). We want more people to become Maintainers and lower the barrier the entry. If you are interested in becoming a Maintainer, please reach out to an existing Maintainer.
 
 Maintainers who are inactive for more than six months may be removed from the maintainer list.
 

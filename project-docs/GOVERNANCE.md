@@ -18,9 +18,9 @@ Maintainers belong to all or some subset of Vega projects. Maintainers are respo
 
 Maintainers have write access and can push directly to branches on GitHub. Maintainers also have access to specific developer channels on Slack.
 
-To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). We want more people to become Maintainers and lower the barrier the entry. If you are interested in becoming a Maintainer, please reach out to an existing Maintainer.
+To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a simple majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). We want more people to become Maintainers and lower the barrier the entry. If you are interested in becoming a Maintainer, please reach out to an existing Maintainer.
 
-Maintainers who are inactive for more than six months may be removed from the maintainer list.
+Maintainers who are inactive for more than six months may be removed from the Maintainer list by 3/4 vote of the existing Maintainers.
 
 ### Admins
 
@@ -28,7 +28,7 @@ Admins are maintainers who can make and are responsible for releases. Admins are
 
 To become an Admin, a Maintainer must be nominated and approved by the existing Admins using the same process as for Maintainers. Admins are listed in the [ADMINS.md file](ADMINS.md).
 
-Admins who are inactive for a year may be removed from the Admin list.
+Admins who are inactive for a year may be removed from the Admin list by 3/4 vote of the existing Admins.
 
 ## Decisions
 
@@ -46,7 +46,7 @@ Decisions may be appealed by opening an issue and that appeal will be considered
 
 Each Vega project may have its own development guidelines in a `CONTRIBUTING.md` file. For example, [Vega-Lite's contributing guide](https://github.com/vega/vega-lite/blob/main/CONTRIBUTING.md) describes design and development principles.
 
-## How We Work.
+## How We Work
 
 **Openness**. Participation is open to anyone who is directly and materially affected by the activity in question. There shall be no undue financial barriers to participation.
 

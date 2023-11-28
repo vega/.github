@@ -18,9 +18,7 @@ The Steering Committee will be responsible for all technical oversight, project 
 
 ### Composition
 
-The Steering Committee voting members are listed in the [STEERING-COMMITTEE.md file](STEERING-COMMITTEE.md).
-Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee.
-The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
+The Steering Committee voting members are listed in the [STEERING-COMMITTEE.md file](STEERING-COMMITTEE.md). Voting members may be added or removed by no less than 3/4 affirmative vote of the Steering Committee. The Steering Committee will appoint a Chair responsible for organizing Steering Committee activity.
 
 ## Voting
 

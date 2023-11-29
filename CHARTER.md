@@ -14,7 +14,7 @@ The Vega projects provide an ecosystem of tools for declarative data visualizati
 
 ### Purpose
 
-The Steering Committee will be responsible for all technical oversight, project approval and oversight, policy oversight, and trademark management for the Organization.
+The Steering Committee will be responsible for all technical oversight, project approval, policy oversight, and trademark management for the Organization.
 
 ### Composition
 

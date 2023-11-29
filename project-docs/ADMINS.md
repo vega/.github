@@ -14,7 +14,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | Kanit Wongsuphasawat | @kanitw | - |
 | Lukas Hermann | @lsh | - |
 
-## Vega Altair Admins
+## Vega-Altair Admins
 
 This includes projects in the [altair-viz](https://github.com/altair-viz/) org.
 

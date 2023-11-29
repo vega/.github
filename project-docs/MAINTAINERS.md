@@ -20,7 +20,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | Mattijn van Hoek | @mattijn | - |
 | Younghoon Kim | @yhoonkim | - |
 
-## Vega Altair Maintainers
+## Vega-Altair Maintainers
 
 This includes projects in the [altair-viz](https://github.com/altair-viz/) org.
 

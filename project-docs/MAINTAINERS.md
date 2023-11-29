@@ -11,7 +11,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | Arvind Satyanarayan | @arvind | - |
 | Dominik Moritz | @domoritz | - |
 | Fan Du | @fandu-db | - |
-| Jeffrey Heer | @jheer | - |
+| Jeffrey Heer | @jheer | University of Washington |
 | Joel Ostblom | @joelostblom  | - |
 | Jon Mease | @jonmmease | [Hex Technologies](https://hex.tech/) |
 | Kanit Wongsuphasawat | @kanitw | - |

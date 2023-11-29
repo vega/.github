@@ -6,7 +6,7 @@ This document lists the members of the Organization's Steering Committee. Voting
 | --- | --- | --- |
 | Stefan Binder (Chair) | @binste | - |
 | Dominik Moritz (Chair) | @domoritz | - |
-| Jeffrey Heer | @jheer | - |
+| Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |
 | Arvind Satyanarayan | @arvind | - |
 | Joel Ostblom | @joelostblom  | - |

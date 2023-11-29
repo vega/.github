@@ -10,7 +10,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | --- | --- | --- |
 | Arvind Satyanarayan | @arvind | - |
 | Dominik Moritz | @domoritz | - |
-| Jeffrey Heer | @jheer | - |
+| Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |
 | Lukas Hermann | @lsh | - |
 

@@ -36,7 +36,7 @@ The membership of a Steering Committee member will terminate if any of the follo
 
 * **Resignation**. Written notice of resignation to the Steering Committee.
 
-* **Unreachable Member**. If a member is unresponsive at its listed handle for more than three months the Steering Committee may vote to remove the member.
+* **Unreachable Member**. If a member is unresponsive at their listed handle for more than three months the Steering Committee may vote to remove the member.
 
 * **Code of Conduct violation**. If a member violates the Code of Conduct in a way that justifies at least a warning, the Steering Committee may vote to remove the member.
 

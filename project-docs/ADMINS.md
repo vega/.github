@@ -8,7 +8,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
-| Arvind Satyanarayan | @arvind | - |
+| Arvind Satyanarayan | @arvind | MIT CSAIL |
 | Dominik Moritz | @domoritz | - |
 | Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |

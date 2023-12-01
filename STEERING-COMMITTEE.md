@@ -8,7 +8,7 @@ This document lists the members of the Organization's Steering Committee. Voting
 | Dominik Moritz (Chair) | @domoritz | - |
 | Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |
-| Arvind Satyanarayan | @arvind | - |
+| Arvind Satyanarayan | @arvind | MIT CSAIL |
 | Joel Ostblom | @joelostblom  | - |
 | Jon Mease | @jonmmease | [Hex Technologies](https://hex.tech/) |
 | Mattijn van Hoek | @mattijn | - |

@@ -56,6 +56,8 @@ In order to be eligible to be a Organization project, a project must:
   - For specifications, a community developed and maintained specification agreement, such the [Open Web Foundation Agreements](https://www.openwebfoundation.org/the-agreements) or [Community Specification Agreement](https://github.com/CommunitySpecification/1.0).
 * Include and adhere to the Organization's policies, including the [code of conduct](./CODE-OF-CONDUCT.md).
 
+After adding a project to the Vega Organization, add it to the list at the top of this document.
+
 ## Amendments
 
 Amendments to this charter, or the [code of conduct](CODE_OF_CONDUCT.md) may only be made with at least a 3/4 affirmative vote of the Steering Committee.

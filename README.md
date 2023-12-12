@@ -6,9 +6,9 @@ The overall project charter is in [CHARTER.md](CHARTER.md). The governance docum
 
 ## Adding Maintainers
 
-We want many people to become maintainer. If you are asking yourself whether you should become a maintainer, the answer is probably yes. A new maintainer needs to be [proposed by an existing maintainer and voted on](project-docs/GOVERNANCE.md#maintainers).
+We want many people to become maintainers. If you are asking yourself whether you should become a maintainer, the answer is probably yes. A new maintainer needs to be [proposed by an existing maintainer and voted on](project-docs/GOVERNANCE.md#maintainers).
 
-If you as an exisitng maintainer want to add a new maintainer, here is a template for Slack you might use to propose adding someone.
+If you as an existing maintainer want to add a new maintainer, here is a template for Slack you might use to propose adding someone.
 
 > @channel I would like to propose to add @person as a maintainer. [write a justification]
 >

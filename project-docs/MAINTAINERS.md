@@ -9,6 +9,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
 | Arvind Satyanarayan | @arvind | MIT CSAIL |
+| Cameron Yick | @hydrosquall | - |
 | Dominik Moritz | @domoritz | - |
 | Fan Du | @fandu-db | - |
 | Jeffrey Heer | @jheer | University of Washington |

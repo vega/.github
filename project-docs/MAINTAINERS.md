@@ -19,6 +19,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | Klaus Eckelt | @keckelt | - |
 | Lukas Hermann | @lsh | - |
 | Mattijn van Hoek | @mattijn | - |
+| William Wolf | @willium | - |
 | Younghoon Kim | @yhoonkim | - |
 
 ## Vega-Altair Maintainers

@@ -57,7 +57,3 @@ Each Vega project may have its own development guidelines in a `CONTRIBUTING.md`
 **Consideration of Views and Objections**. Prompt consideration shall be given to the written views and objections of all Contributors.
 
 **Written procedures**. This governance document and other materials documenting this project's development process shall be available to any interested person.
-
-## No Confidentiality.
-
-Information disclosed in connection with any Project activity, including but not limited to meetings, contributions, and submissions, is not confidential, regardless of any markings or statements to the contrary.

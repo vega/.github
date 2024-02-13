@@ -40,7 +40,7 @@ The membership of a Steering Committee member will terminate if any of the follo
 
 * **Code of Conduct violation**. If a member violates the Code of Conduct in a way that justifies at least a warning, the Steering Committee may vote to remove the member.
 
-## No Confidentiality.
+## No Confidentiality
 
 Information disclosed in connection with any of the Organization's activities, including but not limited to meetings, Contributions, and submissions, is not confidential, regardless of any markings or statements to the contrary.
 

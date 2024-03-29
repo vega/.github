@@ -20,6 +20,7 @@ This includes projects in the [vega](https://github.com/vega/) org.
 | Lukas Hermann | @lsh | - |
 | Mattijn van Hoek | @mattijn | - |
 | Younghoon Kim | @yhoonkim | - |
+| Stefan Binder | @binste | - |
 
 ## Vega-Altair Maintainers
 

@@ -2,7 +2,7 @@
 
 ## Scope and Goals
 
-This is the organizational charter for [Vega](https://github.com/vega/vega), [Vega-Lite](https://github.com/vega/vega-lite), [Vega-Altair](https://github.com/altair-viz/altair), [Vega-Embed](https://github.com/vega/vega-embed), [Vega-Datasets](https://github.com/vega/vega-datasets), [Vega-Themes](https://github.com/vega/vega-themes), [Vega-Tooltips](https://github.com/vega/vega-tooltip), [Vega-Editor](https://github.com/vega/editor), [VL-Convert](https://github.com/vega/vl-convert), [Altair-Tiles](https://github.com/altair-viz/altair_tiles), and [dash-vega-components](https://github.com/altair-viz/dash-vega-components). These projects are collectively referred to as the "Vega projects" in this document.
+This is the organizational charter for [Vega](https://github.com/vega/vega), [Vega-Lite](https://github.com/vega/vega-lite), [Vega-Altair](https://github.com/altair-viz/altair), [Vega-Embed](https://github.com/vega/vega-embed), [Vega-Datasets](https://github.com/vega/vega-datasets), [Vega-Themes](https://github.com/vega/vega-themes), [Vega-Tooltips](https://github.com/vega/vega-tooltip), [Vega-Editor](https://github.com/vega/editor), [VL-Convert](https://github.com/vega/vl-convert), [VegaFusion](https://github.com/vega/vegafusion), [Altair-Tiles](https://github.com/altair-viz/altair_tiles), and [dash-vega-components](https://github.com/altair-viz/dash-vega-components). These projects are collectively referred to as the "Vega projects" in this document.
 
 The Vega projects are in the [vega](https://github.com/vega) and [altair-viz](https://github.com/altair-viz) GitHub organizations.
 

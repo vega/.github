@@ -17,3 +17,4 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | Mattijn van Hoek | @mattijn | - |
 | Younghoon Kim | @yhoonkim | - |
 | Stefan Binder | @binste | - |
+| Christopher Davis | @ChristopherDavisUCI | - |

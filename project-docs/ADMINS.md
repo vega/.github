@@ -11,3 +11,7 @@ This document lists the Admins of the Project. Admins may be added once approved
 | Kanit Wongsuphasawat | @kanitw | - |
 | Lukas Hermann | @lsh | - |
 | Stefan Binder | @binste | - |
+| Christopher Davis | @ChristopherDavisUCI | - |
+| Joel Ostblom | @joelostblom  | - |
+| Jon Mease | @jonmmease | [Hex Technologies](https://hex.tech/) |
+| Mattijn van Hoek | @mattijn | - |

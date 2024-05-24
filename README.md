@@ -4,6 +4,8 @@ Community health files for the Vega Projects.
 
 The overall project charter is in [CHARTER.md](CHARTER.md). The governance documents are in [GOVERNANCE.md](project-docs/GOVERNANCE.md) in the `project-docs` folder. This folder also contains the list of [admins](project-docs/ADMINS.md) and [maintainers](project-docs/MAINTAINERS.md) for the projects in the Vega organization.
 
+These documents are based on the [GitHub Minimum Viable Governance](https://github.com/github/MVG) and [others](https://github.com/vega/.github/blob/main/CODE_OF_CONDUCT.md#attribution).
+
 ## Adding Maintainers
 
 We want many people to become maintainers. If you are asking yourself whether you should become a maintainer, the answer is probably yes. A new maintainer needs to be [proposed by an existing maintainer and voted on](project-docs/GOVERNANCE.md#maintainers).

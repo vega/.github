@@ -18,7 +18,7 @@ Maintainers belong to all or some subset of Vega projects. Maintainers are respo
 
 Maintainers have write access and can push directly to branches on GitHub. Maintainers also have access to specific developer channels on Slack.
 
-To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a simple majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). The details of the vote should be deleted before the new maintainer is added to the channel. We want more people to become Maintainers and lower the barrier the entry. If you are interested in becoming a Maintainer, please reach out to an existing Maintainer.
+To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a simple majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). The details of the vote should be deleted before the new maintainer is added to the channel. We want more people to become Maintainers and lower the barrier the entry. If being a Maintainer would make it easier for you to contribute, please reach out to an existing Maintainer to express your interest in becoming a maintainer. 
 
 Maintainers who are inactive for more than six months may be removed from the Maintainer list by 3/4 vote of the existing Maintainers.
 

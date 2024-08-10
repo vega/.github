@@ -19,3 +19,4 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | Younghoon Kim | @yhoonkim | - |
 | Stefan Binder | @binste | - |
 | Christopher Davis | @ChristopherDavisUCI | - |
+| Dan Redding | @dangotbanned | - |

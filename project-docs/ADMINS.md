@@ -6,7 +6,7 @@ This document lists the Admins of the Project. Admins may be added once approved
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
 | Arvind Satyanarayan | @arvind | MIT CSAIL |
-| Dominik Moritz | @domoritz | - |
+| Dominik Moritz | @domoritz | Carnegie Mellon University, Apple |
 | Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |
 | Lukas Hermann | @lsh | - |

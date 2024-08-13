@@ -6,7 +6,7 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | --- | --- | --- |
 | Arvind Satyanarayan | @arvind | MIT CSAIL |
 | Cameron Yick | @hydrosquall | - |
-| Dominik Moritz | @domoritz | Carnegie Mellon University, Apple Inc. |
+| Dominik Moritz | @domoritz | Carnegie Mellon University, Apple |
 | Fan Du | @fandu-db | - |
 | Jeffrey Heer | @jheer | University of Washington |
 | Joel Ostblom | @joelostblom  | - |

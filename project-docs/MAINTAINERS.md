@@ -20,3 +20,4 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | Stefan Binder | @binste | - |
 | Christopher Davis | @ChristopherDavisUCI | - |
 | Dan Redding | @dangotbanned | - |
+| Daniel Sorid | @dsmedia | - |

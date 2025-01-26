@@ -4,7 +4,6 @@ This document lists the members of the Organization's Steering Committee. Voting
 
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
-| Stefan Binder (Chair) | @binste | - |
 | Dominik Moritz (Chair) | @domoritz | Carnegie Mellon University, Apple |
 | Jeffrey Heer | @jheer | University of Washington |
 | Kanit Wongsuphasawat | @kanitw | - |

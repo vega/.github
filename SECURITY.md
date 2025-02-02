@@ -10,8 +10,6 @@ To report a security issue privately, please use the GitHub Security Advisory ["
 
 A Vega [maintainer](https://github.com/vega/.github/blob/main/project-docs/MAINTAINERS.md) will send a response indicating next steps in handling your report. After the initial reply, the team will keep you informed of the progress towards a fix and announcement, and may ask for additional information or guidance.
 
-You can also report a vulnerability in Vega Javascript packages through the [npm contact form](https://www.npmjs.com/support) by selecting "I'm reporting a security vulnerability", or in Python packages through the [PyPI form](https://pypi.org/security/)
-
 ## Languages
 
 Communications should be in English.

@@ -5,7 +5,7 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | **NAME** | **Handle** | **Affiliated Organization** |
 | --- | --- | --- |
 | Arvind Satyanarayan | @arvind | MIT CSAIL |
-| Cameron Yick | @hydrosquall | - |
+| Cameron Yick | @hydrosquall | [Datadog](https://www.datadoghq.com/) |
 | Dominik Moritz | @domoritz | Carnegie Mellon University, Apple |
 | Fan Du | @fandu-db | - |
 | Jeffrey Heer | @jheer | University of Washington |

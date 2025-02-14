@@ -12,4 +12,4 @@ This document lists the members of the Organization's Steering Committee. Voting
 | Jon Mease | @jonmmease | [Hex Technologies](https://hex.tech/) |
 | Mattijn van Hoek | @mattijn | - |
 | Christopher Davis | @ChristopherDavisUCI | - |
-| Cameron Yick | @hydrosquall |	- |
+| Cameron Yick | @hydrosquall | [Datadog](https://www.datadoghq.com/) |

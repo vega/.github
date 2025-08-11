@@ -23,3 +23,4 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | Daniel Sorid | @dsmedia | - |
 | Jonathan Zong | @jonathanzong | MIT CSAIL |
 | Josh Pollock | @joshpoll | MIT CSAIL |
+| Yuvvan Talreja | @yuvvantalreja | - |

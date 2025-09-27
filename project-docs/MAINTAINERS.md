@@ -24,3 +24,4 @@ This document lists the Maintainers of the Project. Maintainers may be added onc
 | Jonathan Zong | @jonathanzong | MIT CSAIL |
 | Josh Pollock | @joshpoll | MIT CSAIL |
 | Yuvvan Talreja | @yuvvantalreja | - |
+| Bas Broekhuizen | @basbroek | City of Amsterdam |

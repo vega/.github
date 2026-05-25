@@ -131,7 +131,6 @@ repos:
 uncategorized_repos:
   - altair_ally
   - altair_tiles
-  - compass
   - compassql-analysis
   - dataflow-api
   - dataflow-vis
@@ -140,65 +139,26 @@ uncategorized_repos:
   - ipyvega
   - logos
   - polestar
-  - react-vega-lite
   - scalable-vega
   - SciPy2024-Altair-Tutorial
   - ts-api
   - vega-benchmarks
   - vega-bundler
-  - vega-canvas
-  - vega-crossfilter
-  - vega-dataflow
   - vega-dataflow-examples
-  - vega-desktop
-  - vega-editor
-  - vega-embed-v2
-  - vega-encode
-  - vega-event-selector
-  - vega-expression
-  - vega-force
-  - vega-geo
   - vega-gist
-  - vega-hierarchy
-  - vega-label
-  - vega-lib
-  - vega-lite-dev-config
   - vega-lite-params-proposal
   - vega-lite-pr-previews
   - vega-lite-shorthand
   - vega-lite-to-api
   - vega-lite-transforms2sql
   - vega-lite-tutorials
-  - vega-lite-ui
-  - vega-lite-v1
-  - vega-lite-v2
-  - vega-lite-v3
-  - vega-lite-v4
-  - vega-loader
   - vega-logging
-  - vega-observable
-  - vega-parser
   - vega-plus
-  - vega-projection
-  - vega-projection-extended
-  - vega-render-service
   - vega-renderer-webgl
-  - vega-runtime
-  - vega-scale
-  - vega-scenegraph
-  - vega-statistics
   - vega-tile
-  - vega-transforms
   - vega-tutorials
-  - vega-typings
-  - vega-util
-  - vega-view
-  - vega-view-transforms
-  - vega-voronoi
-  - vega-vscode
   - vega-webgl-renderer
   - vega-webgpu
-  - vega-wordcloud
   - vega2-docs
   - vegafusion-conda-feedstock
   - vegafusion-conda-jupyter-feedstock
@@ -223,3 +183,44 @@ archived_repos:
   - voyager-electron
   - voyager-server
   - voyager2
+  - compass
+  - react-vega-lite
+  - vega-canvas
+  - vega-crossfilter
+  - vega-dataflow
+  - vega-desktop
+  - vega-editor
+  - vega-embed-v2
+  - vega-encode
+  - vega-event-selector
+  - vega-expression
+  - vega-force
+  - vega-geo
+  - vega-hierarchy
+  - vega-label
+  - vega-lib
+  - vega-lite-dev-config
+  - vega-lite-ui
+  - vega-lite-v1
+  - vega-lite-v2
+  - vega-lite-v3
+  - vega-lite-v4
+  - vega-loader
+  - vega-observable
+  - vega-parser
+  - vega-projection
+  - vega-projection-extended
+  - vega-render-service
+  - vega-runtime
+  - vega-scale
+  - vega-scenegraph
+  - vega-statistics
+  - vega-transforms
+  - vega-typings
+  - vega-util
+  - vega-view
+  - vega-view-transforms
+  - vega-voronoi
+  - vega-vscode
+  - vega-wordcloud
+  - web-service

@@ -118,10 +118,7 @@ async function main() {
       }
     }
 
-    if (
-      (entry.lifecycle_status === 'deprecated' || entry.lifecycle_status === 'archived') &&
-      !entry.replacement
-    ) {
+    if (entry.lifecycle_status === 'deprecated' && !entry.replacement) {
       warn(`'${entry.name}' is ${entry.lifecycle_status} and has no replacement set. Verify this is intentional.`);
     }
   }

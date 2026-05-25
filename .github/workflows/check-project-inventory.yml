@@ -1,0 +1,32 @@
+name: Check project inventory
+
+on:
+  pull_request:
+    paths:
+      - project-inventory.yml
+      - project-inventory.schema.yml
+      - PROJECT_STATUS.md
+      - scripts/check-project-inventory.js
+      - package.json
+      - package-lock.json
+      - .github/workflows/check-project-inventory.yml
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: node scripts/check-project-inventory.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ORG: vega

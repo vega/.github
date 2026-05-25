@@ -1,0 +1,150 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+type: object
+required:
+  - metadata_version
+  - repos
+properties:
+  metadata_version:
+    type: integer
+  definitions:
+    type: string
+  schema:
+    type: string
+  # Known public repositories that are intentionally not fully classified yet.
+  uncategorized_repos:
+    type: array
+    items:
+      type: string
+  # Primary categorized repositories. support_level is optional and may be inferred
+  # from lifecycle_status by validator defaults.
+  repos:
+    type: array
+    items:
+      type: object
+      additionalProperties: false
+      required:
+        - name
+        - lifecycle_status
+        - project_role
+        - owner_model
+      properties:
+        name:
+          type: string
+        lifecycle_status:
+          enum:
+            - active
+            - experimental
+            - maintenance
+            - deprecated
+            - archived
+        support_level:
+          enum:
+            - full
+            - best_effort
+            - none
+        project_role:
+          enum:
+            - primary
+            - ecosystem
+            - integration
+            - example
+            - research
+            - infrastructure
+            - historical
+        owner_model:
+          enum:
+            - org_shared
+            - named_lead
+            - unowned
+        replacement:
+          type: string
+        notes:
+          type: string
+        repo_lead:
+          type:
+            - string
+            - 'null'
+        backup:
+          type:
+            - string
+            - 'null'
+        package_names:
+          type: array
+          items:
+            type: string
+        core_maintainers:
+          type: array
+          items:
+            type: string
+  # Research repos grouped with shared defaults to avoid repetitive metadata.
+  research_prototypes:
+    type: object
+    required:
+      - defaults
+      - repos
+    additionalProperties: false
+    properties:
+      defaults:
+        type: object
+        additionalProperties: false
+        required:
+          - lifecycle_status
+          - project_role
+          - owner_model
+        properties:
+          lifecycle_status:
+            enum:
+              - active
+              - experimental
+              - maintenance
+              - deprecated
+              - archived
+          support_level:
+            enum:
+              - full
+              - best_effort
+              - none
+          project_role:
+            enum:
+              - research
+          owner_model:
+            enum:
+              - org_shared
+              - named_lead
+              - unowned
+      repos:
+        type: array
+        items:
+          oneOf:
+            - type: string
+            - type: object
+              additionalProperties: false
+              required:
+                - name
+              properties:
+                name:
+                  type: string
+                lifecycle_status:
+                  enum:
+                    - active
+                    - experimental
+                    - maintenance
+                    - deprecated
+                    - archived
+                support_level:
+                  enum:
+                    - full
+                    - best_effort
+                    - none
+                project_role:
+                  enum:
+                    - research
+                owner_model:
+                  enum:
+                    - org_shared
+                    - named_lead
+                    - unowned
+                core_maintainers:
+                  type: array
+                  items:
+                    type: string

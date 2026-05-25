@@ -148,67 +148,9 @@ properties:
                   type: array
                   items:
                     type: string
-  # Archived repos grouped with shared defaults to keep historical projects separate.
+  # Archived repos as a flat list. Archived implies lifecycle_status:archived,
+  # project_role:historical, owner_model:unowned, support_level:none.
   archived_repos:
-    type: object
-    required:
-      - defaults
-      - repos
-    additionalProperties: false
-    properties:
-      defaults:
-        type: object
-        additionalProperties: false
-        required:
-          - lifecycle_status
-          - project_role
-          - owner_model
-        properties:
-          lifecycle_status:
-            enum:
-              - archived
-          support_level:
-            enum:
-              - full
-              - best_effort
-              - none
-          project_role:
-            enum:
-              - historical
-          owner_model:
-            enum:
-              - org_shared
-              - named_lead
-              - unowned
-      repos:
-        type: array
-        items:
-          oneOf:
-            - type: string
-            - type: object
-              additionalProperties: false
-              required:
-                - name
-              properties:
-                name:
-                  type: string
-                lifecycle_status:
-                  enum:
-                    - archived
-                support_level:
-                  enum:
-                    - full
-                    - best_effort
-                    - none
-                project_role:
-                  enum:
-                    - historical
-                owner_model:
-                  enum:
-                    - org_shared
-                    - named_lead
-                    - unowned
-                core_maintainers:
-                  type: array
-                  items:
-                    type: string
+    type: array
+    items:
+      type: string

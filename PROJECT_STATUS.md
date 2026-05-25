@@ -10,7 +10,7 @@ Field usage:
 - `uncategorized_repos` is a holding list for known public repos that are intentionally not fully classified yet (often lightly maintained, historical, or low-signal repos).
 - `core_maintainers` is optional and should be used when a repository has clear, consistent maintainer leadership.
 - `research_prototypes` groups research repositories that share common lifecycle/support/ownership defaults to reduce repetitive metadata.
-- `archived_repos` groups archived repositories separately from active or maintenance groups so historical projects are explicit.
+- `archived_repos` is a flat list of historical repositories; entries implicitly map to `lifecycle_status: archived`, `project_role: historical`, `owner_model: unowned`, and `support_level: none`.
 
 ## `lifecycle_status`
 

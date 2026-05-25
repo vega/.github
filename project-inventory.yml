@@ -218,13 +218,8 @@ research_prototypes:
     - falcon
     - lyra
 archived_repos:
-  defaults:
-    lifecycle_status: archived
-    project_role: historical
-    owner_model: unowned
-  repos:
-    - voyager
-    - voyager-docs
-    - voyager-electron
-    - voyager-server
-    - voyager2
+  - voyager
+  - voyager-docs
+  - voyager-electron
+  - voyager-server
+  - voyager2

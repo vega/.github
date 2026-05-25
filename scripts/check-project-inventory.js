@@ -77,7 +77,15 @@ async function main() {
     }
     return { ...(researchDefaults || {}), ...entry };
   });
-  const allEntries = [...repoEntries, ...researchEntries];
+  const archivedEntriesRaw = inventory.archived_repos || [];
+  const archivedEntries = archivedEntriesRaw.map((name) => ({
+    name,
+    lifecycle_status: 'archived',
+    project_role: 'historical',
+    owner_model: 'unowned',
+    support_level: 'none',
+  }));
+  const allEntries = [...repoEntries, ...researchEntries, ...archivedEntries];
   const uncategorized = new Set(inventory.uncategorized_repos || []);
   const inventoryByName = new Map();
   let hasErrors = false;

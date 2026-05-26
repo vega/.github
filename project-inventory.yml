@@ -23,7 +23,6 @@ repos:
     owner_model: named_lead
     core_maintainers:
       - domoritz
-      - hydrosquall
     repo_lead: domoritz
   - name: editor-backend
     lifecycle_status: maintenance
@@ -111,19 +110,13 @@ repos:
       - jonmmease
     repo_lead: jonmmease
   - name: vl-convert
-    lifecycle_status: active
+    lifecycle_status: maintenance
     project_role: ecosystem
-    owner_model: named_lead
-    core_maintainers:
-      - jonmmease
-    repo_lead: jonmmease
+    owner_model: org_shared
   - name: vl-convert-service
     lifecycle_status: maintenance
     project_role: integration
-    owner_model: named_lead
-    core_maintainers:
-      - jonmmease
-    repo_lead: jonmmease
+    owner_model: org_shared
   - name: vue-vega
     lifecycle_status: maintenance
     project_role: integration

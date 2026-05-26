@@ -5,12 +5,12 @@ This document defines public metadata values used by [`project-inventory.yml`](.
 Field usage:
 
 - `support_level` is optional; default inference is `active -> full`, `experimental -> best_effort`, `maintenance -> best_effort`, `deprecated -> none`, `archived -> none`.
-- `replacement` is optional and should be included when a clear migration target exists.
-- `notes` is optional and should be used sparingly for exceptions that are not captured by enum fields.
-- `uncategorized_repos` is a holding list for known public repos that are intentionally not fully classified yet (often lightly maintained, historical, or low-signal repos).
-- `core_maintainers` is optional and should be used when a repository has clear, consistent maintainer leadership.
-- `research_prototypes` groups research repositories that share common lifecycle/support/ownership defaults to reduce repetitive metadata.
-- `archived_repos` is a flat list of historical repositories; entries implicitly map to `lifecycle_status: archived`, `project_role: historical`, `owner_model: unowned`, and `support_level: none`.
+- `replacement` is optional; include when a clear migration target exists.
+- `notes` is optional; use sparingly for exceptions not captured by enum fields.
+- `uncategorized_repos` holds known public repos not yet fully classified (often lightly maintained, historical, or low-signal).
+- `core_maintainers` is optional; use when a repository has clear, consistent maintainer leadership.
+- `research_prototypes` groups research repositories sharing common lifecycle/support/ownership defaults.
+- `archived_repos` is a flat list of historical repositories; entries map to `lifecycle_status: archived`, `project_role: historical`, `owner_model: unowned`, and `support_level: none`.
 
 ## `lifecycle_status`
 
@@ -19,16 +19,16 @@ Field usage:
 | `active` | Normal development. Issues, pull requests, and releases are expected. |
 | `experimental` | Exploratory work. APIs, scope, or long-term maintenance may change. |
 | `maintenance` | Kept working, but limited new feature development. |
-| `deprecated` | Users should migrate elsewhere. A replacement should be listed where possible. |
-| `archived` | Historical or read-only project. No support is expected. |
+| `deprecated` | Users should migrate elsewhere; list a replacement where possible. |
+| `archived` | Historical or read-only. No support expected. |
 
 ## `support_level`
 
 | Value | Meaning |
 | --- | --- |
-| `full` | Maintainers expect to review issues/security reports and publish releases as appropriate. |
+| `full` | Maintainers review issues/security reports and publish releases as appropriate. |
 | `best_effort` | Maintained when time allows; no strong response commitment. |
-| `none` | Historical or unsupported; no maintainer response should be expected. |
+| `none` | Unsupported; no maintainer response expected. |
 
 ## `project_role`
 
@@ -48,4 +48,4 @@ Field usage:
 | --- | --- |
 | `org_shared` | The Vega maintainer group collectively owns the repository. |
 | `named_lead` | We have a primary maintainer for triage, release, or review leadership |
-| `unowned` | No active maintainer ownership; generally reserved for archived or unsupported repositories. |
+| `unowned` | No active maintainer; reserved for archived or unsupported repositories. |

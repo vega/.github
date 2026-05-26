@@ -1,0 +1,219 @@
+metadata_version: 1
+definitions: ./PROJECT_STATUS.md
+schema: ./project-inventory.schema.yml
+repos:
+  - name: .github
+    lifecycle_status: active
+    project_role: infrastructure
+    owner_model: org_shared
+  - name: altair
+    lifecycle_status: active
+    project_role: primary
+    owner_model: org_shared
+    core_maintainers:
+      - joelostblom
+      - mattijn
+  - name: dash-vega-components
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: editor
+    lifecycle_status: active
+    project_role: primary
+    owner_model: named_lead
+    core_maintainers:
+      - domoritz
+    repo_lead: domoritz
+  - name: editor-backend
+    lifecycle_status: maintenance
+    project_role: primary
+    owner_model: org_shared
+  - name: react-vega
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: roadmap
+    lifecycle_status: maintenance
+    project_role: infrastructure
+    owner_model: org_shared
+  - name: schema
+    lifecycle_status: active
+    project_role: primary
+    owner_model: org_shared
+  - name: sphinxext-altair
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: svelte-vega
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: ts-json-schema-generator
+    lifecycle_status: active
+    support_level: best_effort
+    project_role: infrastructure
+    owner_model: org_shared
+  - name: vega
+    lifecycle_status: active
+    project_role: primary
+    owner_model: named_lead
+    core_maintainers:
+      - hydrosquall
+    repo_lead: hydrosquall
+  - name: vega-datasets
+    lifecycle_status: maintenance
+    project_role: ecosystem
+    owner_model: named_lead
+    core_maintainers:
+      - dsmedia
+    repo_lead: dsmedia
+  - name: vega-embed
+    lifecycle_status: active
+    project_role: primary
+    owner_model: org_shared
+  - name: vega-lite
+    lifecycle_status: active
+    project_role: primary
+    owner_model: named_lead
+    repo_lead: domoritz
+    core_maintainers:
+      - domoritz
+  - name: vega-lite-api
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: vega-loader-arrow
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: vega-loader-parquet
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: vega-themes
+    lifecycle_status: maintenance
+    project_role: ecosystem
+    owner_model: org_shared
+  - name: vega-tooltip
+    lifecycle_status: maintenance
+    project_role: ecosystem
+    owner_model: org_shared
+  - name: vega.github.io
+    lifecycle_status: active
+    project_role: primary
+    owner_model: org_shared
+  - name: vegafusion
+    lifecycle_status: active
+    project_role: ecosystem
+    owner_model: named_lead
+    core_maintainers:
+      - jonmmease
+    repo_lead: jonmmease
+  - name: vl-convert
+    lifecycle_status: maintenance
+    project_role: ecosystem
+    owner_model: org_shared
+  - name: vl-convert-service
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+  - name: vue-vega
+    lifecycle_status: maintenance
+    project_role: integration
+    owner_model: org_shared
+uncategorized_repos:
+  - altair_ally
+  - altair_tiles
+  - compassql-analysis
+  - dataflow-api
+  - dataflow-vis
+  - datalib
+  - datalib-sketch
+  - ipyvega
+  - logos
+  - polestar
+  - scalable-vega
+  - SciPy2024-Altair-Tutorial
+  - ts-api
+  - vega-benchmarks
+  - vega-bundler
+  - vega-dataflow-examples
+  - vega-gist
+  - vega-lite-params-proposal
+  - vega-lite-pr-previews
+  - vega-lite-shorthand
+  - vega-lite-to-api
+  - vega-lite-transforms2sql
+  - vega-lite-tutorials
+  - vega-logging
+  - vega-plus
+  - vega-renderer-webgl
+  - vega-tile
+  - vega-tutorials
+  - vega-webgl-renderer
+  - vega-webgpu
+  - vega2-docs
+  - vegafusion-conda-feedstock
+  - vegafusion-conda-jupyter-feedstock
+  - vegafusion-conda-python-embed-feedstock
+  - vegafusion-demos
+  - vegafusion-logos
+  - vg-transforms2sql
+  - vl-convert-python-feedstock
+  - web-service
+research_prototypes:
+  defaults:
+    lifecycle_status: maintenance
+    project_role: research
+    owner_model: org_shared
+  repos:
+    - compassql
+    - falcon
+    - lyra
+archived_repos:
+  - voyager
+  - voyager-docs
+  - voyager-electron
+  - voyager-server
+  - voyager2
+  - compass
+  - react-vega-lite
+  - vega-canvas
+  - vega-crossfilter
+  - vega-dataflow
+  - vega-desktop
+  - vega-editor
+  - vega-embed-v2
+  - vega-encode
+  - vega-event-selector
+  - vega-expression
+  - vega-force
+  - vega-geo
+  - vega-hierarchy
+  - vega-label
+  - vega-lib
+  - vega-lite-dev-config
+  - vega-lite-ui
+  - vega-lite-v1
+  - vega-lite-v2
+  - vega-lite-v3
+  - vega-lite-v4
+  - vega-loader
+  - vega-observable
+  - vega-parser
+  - vega-projection
+  - vega-projection-extended
+  - vega-render-service
+  - vega-runtime
+  - vega-scale
+  - vega-scenegraph
+  - vega-statistics
+  - vega-transforms
+  - vega-typings
+  - vega-util
+  - vega-view
+  - vega-view-transforms
+  - vega-voronoi
+  - vega-vscode
+  - vega-wordcloud
+  - web-service

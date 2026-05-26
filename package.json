@@ -1,0 +1,14 @@
+{
+  "name": "vega-org-metadata",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Validation tooling for Vega GitHub org project inventory",
+  "scripts": {
+    "check:project-inventory": "node scripts/check-project-inventory.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^22.0.1",
+    "ajv": "^8.17.1",
+    "yaml": "^2.8.1"
+  }
+}

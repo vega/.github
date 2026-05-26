@@ -1,0 +1,70 @@
+name: Check project inventory
+
+on:
+  pull_request:
+    paths:
+      - project-inventory.yml
+      - project-inventory.schema.yml
+      - PROJECT_STATUS.md
+      - scripts/check-project-inventory.js
+      - package.json
+      - package-lock.json
+      - .github/workflows/check-project-inventory.yml
+  schedule:
+    - cron: '0 12 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: node scripts/check-project-inventory.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_ORG: vega
+
+      - name: Create failure alert issue (scheduled runs)
+        if: failure() && github.event_name == 'schedule'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          title: "CI alert: project-inventory scheduled check failing"
+          labels: ci-alert,project-inventory
+          content-filepath: .github/ISSUE_TEMPLATE/project-inventory-ci-alert.md
+          search-existing: open
+
+      - name: Close failure alert issue on recovery (scheduled runs)
+        if: success() && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const title = "CI alert: project-inventory scheduled check failing";
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: "open",
+              labels: "ci-alert,project-inventory",
+              per_page: 100
+            });
+            for (const issue of issues) {
+              if (issue.title === title) {
+                await github.rest.issues.update({
+                  owner,
+                  repo,
+                  issue_number: issue.number,
+                  state: "closed"
+                });
+              }
+            }

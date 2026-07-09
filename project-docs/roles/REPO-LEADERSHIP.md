@@ -1,89 +1,70 @@
-# Lead and Deputy Maintainers for Vega
+# Lead and Deputy Maintainers for Vega Projects
 
-## Motivation
+This document outlines the roles for per-repository leadership, and the relationship between these roles and project lifecycle status.
 
-As the Vega ecosystem has grown across multiple (100+) repositories, it became harder to tell where maintenance capacity exists, which work is blocked, and who is coordinating review, triage, and release readiness for each repo. There was also not a clear path for sponsors or new contributors to identify who within the current volunteer team is both available and equipped to provide this kind of support.
+## Staffing requirement and repository lifecycle status
 
-This document creates a lightweight Lead Maintainer role for repositories. The goal is to make coordination responsibility visible, reduce ambiguity, and improve contributor understanding of the level of support available for each Vega repository.
+### Roles: Lead and Deputy
 
-This proposal does not change existing admin or Steering Committee roles. It aims to address a gap in responsibilities for the existing Maintainer role.
+A Lead Maintainer is an active maintainer who assumes responsibility for keeping an individual repository healthy and capable of supporting contributions and usage. The Lead helps ensure issues and PRs are triaged, review needs are visible, release blockers are tracked, and cross-project or unresolved decisions are escalated. If a Lead wishes to recognize other maintainers as Co-Leads, they may do so if approved by Steering Comittee vote.
 
-## Staffing requirement and lifecycle status
+A Deputy Lead Maintainer shares these responsibilities and acts when the Lead is unavailable. A `Deputy Maintainer` is strongly recommended to reduce the risk of burnout, but is not required for a repo to be marked a repo to be`active`.
 
-A repository is considered **active** only when it has a named Lead Maintainer. A named Deputy Maintainer is strongly recommended to ensure continuity when the Lead is unavailable and to avoid PR freezes.
+Lead Maintainer suggested term length is 1 year; terms can be renewed. If a critical repository (vega, vega-lite, altair) does not have a `Lead`, the Steering Committee will discuss how to recruit or develop one.
 
-A repository that cannot sustain a named Lead — drawing instead from the shared maintainer pool — should be marked **maintenance** rather than active. This is not a judgment on the project's value; it is an honest signal about the level of dedicated coordination currently available.
+If a Lead or Deputy needs to step back temporarily, they should communicate this to maintainers in the Vega Slack, and may move to `On Leave` status, with the Deputy assuming coordination responsibilities in the interim. If no Deputy exists, the Steering Committee should be notified instead and the repository will move to `maintenance`
 
-If an active repository loses its Lead with no replacement identified, it should be moved to maintenance status until a new Lead is selected.
+### Responsibilities
 
-## Role
+The Lead Maintainer for a repository is responsible for
 
-A Lead Maintainer is an active maintainer who coordinates the health of a repository. The Lead helps ensure that issues and PRs are triaged, review needs are visible, release blockers are tracked, and cross-project or unresolved decisions are escalated.
+- defining a frequency of involvement with the project they anticipate realistically commit to, and sharing this level of involvement with the Steering Committee
+- assisting contributors in understanding levels of priority and complexity for contributions
+- regularly acknowledging the volume and quality of contributions to the repo, including issues, pull requests, and security advisories, and informing the Steering Committee when the current maintainer pool is unable to support the current volume
+- planning the contents of new releases and coordinating with an ADMIN to issue the release
+- keeping the repo `lifecyle_status` status current
+- sharing issues relating to the repo's community health (including but not limited to developer experience, code review, architectural quality, triage, securite) visible to the Steering Committee 
 
-A Deputy Lead Maintainer shares these responsibilities and acts when the Lead is unavailable.
+Note the Lead Maintainer is NOT expected to personally respond to every contribution, as that can lead to burnout.
 
-## Responsibilities
+These responsibilities are defined to ensure every `active` repository has a person thinking about the big picture for that project that is equipped with enough project context to do so effectively. In addition to being equipped with project context, this person is also empowered with the authority to let parties with vested interested in sustaining Vega's health (including the Steering Committee and Resaerch/commercial users of Vega) to understand where support will be most impactful.
 
-The Lead Maintainer is responsible for activities such as:
+### Authority
 
-- being a point of contact for new contributors
-- ensuring issues and PRs are labeled and routed on a regular basis
-- ensuring contributors (of code or issues) are able to receive quality feedback
-- identifying blocked or stale PRs
-- making release blockers and release-readiness tasks visible
-- routing contributor questions to the right place
-- documenting major decisions publicly
-- keeping the repo health status current
-- escalating cross-repo/spec/API issues
-- making the repo's need for additional maintainer, reviewer, docs, or triage capacity visible to the Steering Committee
+The Lead Maintainer works through the normal public contribution, review, and consensus processes associated with regular maintainers, with one exception: A lead maintainer can merge a PR without a review from another maintainer, as long as they describe why this is necessary on the PR It is expected that a maintainer makes a best effort to find a reviewer before doing this. Since using this power goes against the usual expetation that every PR is reviewed by that repoository's CODEOWNERS, it is granted with the expectation that the lead maintainer has the technical and orgnizational context to judge when the loss of benefits from code review are outweighed by the benefits to Vega's users.
 
-## Non-responsibilities
+### Selection criteria
 
-The Lead Maintainer is not expected to:
+Lead Maintainers should have a track record of consistent, high-quality contributions to the repository, and be comfortable proposing and holding themselves accountable to a level of involvement that fits their circumstances.
 
-- personally fix each bug
-- personally review each PR
-- guarantee response times
-- carry the repository alone
-- accept new features without a maintenance path
-- make unilateral breaking changes
-- override maintainer consensus
+Lead and Deputy Maintainers may be nominated by current maintainers or may self-nominate. Selection should be by [consensus](https://github.com/vega/.github/blob/main/project-docs/GOVERNANCE.md#consensus-based-decision-making) of active maintainers for that repository held in the Vega slack, with ratification by Steering Committee for critical repositories (vega, vega-lite, altair).
 
-## Authority
+Lead and Deputy roles should be reviewed at annually, or when a repository's health status changes.
 
-The Lead Maintainer works through the normal public contribution, review, and consensus processes.
+## Repository status and transition
 
-The Lead may organize labels, milestones, and project boards; summarize apparent consensus; request review; close clearly duplicate or out-of-scope issues according to documented policy; identify release blockers; and escalate unresolved or cross-project decisions.
+### `lifecycle_status`
 
-The Lead does not own the repository and does not have authority to override project governance.
+Any `active`repository's `lifecyle_status` should be clearly marked near the top of the project's `README.md`
 
-## Selection criteria
-
-Lead Maintainers should have a track record of consistent, high-quality contributions to the repository, and be comfortable proposing a level of involvement that fits their circumstances.
-
-Lead and Deputy Maintainers may be nominated by current maintainers or may self-nominate. Selection should be by lazy consensus of active maintainers for that repository, with Steering Committee awareness or ratification for critical repositories.
-
-Lead and Deputy roles should be reviewed at least annually, or when a repository's health status changes.
-
-## Status and transition
-
-| Repo status | What it means |
+| Value | Meaning |
 | --- | --- |
-| Active | Has a named Lead Maintainer; Deputy is strongly recommended. |
-| Maintenance | No named Lead; draws from the shared maintainer pool. |
-| Archive candidate | No active maintainer coverage; Steering Committee should evaluate archiving. |
+| `active` | Normal development. Issues are triaged, pull requests are reviewed, and releases are expected. Requires a named Lead Maintainer. |
+| `maintenance` | Limited development activity, as coordination capacity is limited compared to `active` projects  |
+| `experimental` | Exploratory work / research projects. APIs and scope may change without notice. |
+| `deprecated` | Not maintained, there's a replacement you should use instead |
+| `archived` | Historical or read-only project. No support  expected. Status is marked by Github's "archived" feature |
 
-Lead Maintainer suggested term length is 1 year; terms can be renewed. If a critical repository has no Lead, it becomes a top priority for the Steering Committee to recruit or develop one.
+The difference between `active` and `maintenance` is coordination capacity rather than activity level. A repository in `maintenance` can have high levels of issues and PRs than an `active` repository, but if there isn't a lead, it still should not be marked `active`.
 
-If a Lead or Deputy needs to step back temporarily, they should communicate this to maintainers and may move to **On Leave** status, with the Deputy (if present) assuming coordination responsibilities in the interim. If no Deputy exists, the Steering Committee should be notified.
+A repository that does not have a named Lead will be supported collectively by the shared pool of Maintainers (as described in MAINTAINERS.md) will be marked `maintenance` . This is recommended so consumers of `maintenance` repos can have realistic expectations about the level of support available.
+
 
 ## Emeritus and stepping down
 
-The intent of this section is planning accuracy for a volunteer team, not removal from the community.
-
 ### Voluntary transition
 
-A Lead or Deputy who is no longer able to serve in the role should let the maintainer group know, ideally with some notice to allow for a handoff. There is no minimum tenure required before stepping down.
+A Lead or Deputy who is no longer able to serve in the role should let the maintainer group know in Slack and Github, ideally with advance notice to allow for a handoff.
 
 ### Inactivity-based transition
 
@@ -99,6 +80,4 @@ The transition PR should update any relevant role records (e.g. `project-invento
 
 ### After transition
 
-Emeritus Leads and Deputies retain community membership and remain welcome participants. They may return to a Lead or Deputy role through the normal nomination and approval process.
-
-This per-repo emeritus process is separate from, and in addition to, the org-wide Maintainer emeritus process described in [GOVERNANCE.md](../GOVERNANCE.md).
+Emeritus Leads and Deputies may return to the role at any time through the normal nomination and approval process.

@@ -20,7 +20,7 @@ Maintainers have write access and can push directly to branches on GitHub. Maint
 
 To become a Maintainer, a contributor must be nominated by an existing Maintainer and approved by a simple majority of Maintainers via Slack reactions within 7 days (simple majority of responses). A new Maintainer should be added to 1) the GitHub team, 2) the Slack channel, and 3) the [MAINTAINERS.md file](MAINTAINERS.md). The details of the vote should be deleted before the new maintainer is added to the channel. We want more people to become Maintainers and lower the barrier the entry. If being a Maintainer would make it easier for you to contribute, please reach out to an existing Maintainer to express your interest in becoming a maintainer. 
 
-Maintainers who are inactive for more than six months may be removed from the Maintainer list by 3/4 vote of the existing Maintainers.
+Maintainers who are inactive for more than six months may be removed from the Maintainer list by 3/4 vote of the existing Maintainers. As a default process, Maintainers with no qualifying activity in the previous 12 months should be moved to [EMERITUS.md](EMERITUS.md), unless Maintainers decide otherwise during the vote. Outreach expectations, timing, and PR documentation requirements are defined in [EMERITUS.md](EMERITUS.md). The intent is planning accuracy for a volunteer team, not exclusion from the community.
 
 ### Admins
 
@@ -28,7 +28,7 @@ Admins are maintainers who can make and are responsible for releases. Admins are
 
 To become an Admin, a Maintainer must be nominated and approved by the existing Admins using the same process as for Maintainers. Admins are listed in the [ADMINS.md file](ADMINS.md).
 
-Admins who are inactive for a year may be removed from the Admin list by 3/4 vote of the existing Admins.
+Admins who are inactive for a year may be removed from the Admin list by 3/4 vote of the existing Admins. As a default process, Admins with no qualifying activity in the previous 12 months should be moved to [EMERITUS.md](EMERITUS.md), unless Admins decide otherwise during the vote. Outreach expectations, timing, and PR documentation requirements are defined in [EMERITUS.md](EMERITUS.md). The intent is planning accuracy for a volunteer team, not exclusion from the community.
 
 ## Decisions
 
